@@ -1,0 +1,66 @@
+.bod{
+    display: flex;
+    justify-content: center;
+    
+}
+.azro{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -100;
+    background-image: url(/src/component/melkart.png) ;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: top ;
+    opacity: 1;
+    
+}
+.par{
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(whitesmoke,#385985) ;
+    opacity: 0.9;
+}
+.con{
+    position: absolute;
+    top: 300px;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #385985;
+    border: none;
+    border-radius: 5px;
+    padding: 2%;
+    margin: 15px;
+}
+.rq{
+    position: absolute;
+    top: 500px;
+    font-size: 25px;
+    margin: 10px;
+}
+.inscri{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #385985 ;
+    padding: 5px 20px;
+    position: absolute;
+    top: 70%;
+    box-shadow: 2px 2px 20px #ffffff;
+    
+}
+a{
+    text-decoration: none;
+    color:#385985 ;
+    font-weight: bold;
+}
